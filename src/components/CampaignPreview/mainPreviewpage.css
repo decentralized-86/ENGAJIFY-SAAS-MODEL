@@ -1,0 +1,50 @@
+.preview-component {
+    margin-left: 270px; /* Adjust this value to match the width of the Sidebar */
+    margin-top: 60px; /* Adjust this value based on the height of your Navbar */
+    padding: 20px;
+  }
+  
+  .preview-component h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .preview-component p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 200px;
+    padding:10px;
+    font-size: 14px;
+  }
+  
+  .video-upload-container {
+    margin-bottom: 20px;
+  }
+  
+  .video-instructions {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 60px;
+  z-index: 100;
+}
+
+.navbar__logo img {
+  margin: 12px 20px;
+  height: 30px;
+}
+
+.navbar__text {
+  margin: 12px 8px;
+}
+
+.navbar__search input {
+  margin-top: 12px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__notifications,
+.navbar__dropdown {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.navbar__notifications img,
+.navbar__dropdown img {
+  height: 20px;
+}

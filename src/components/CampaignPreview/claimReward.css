@@ -1,0 +1,72 @@
+.claim-reward-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gift-card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .gift-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .gift-card p {
+    margin: 10px 0;
+  }
+  
+  .code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gift-card-code {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .copy-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .copy-button:focus {
+    outline: none;
+  }
+  
+  .copy-symbol {
+    font-size: 20px;
+  }
+  
+  .copy-status {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .redirect-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .redirect-button:focus {
+    outline: none;
+  }
+  
+  .redirect-button:hover {
+    background-color: #0056b3;
+  }
+  
